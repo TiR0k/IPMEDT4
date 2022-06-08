@@ -58,8 +58,6 @@ let Icons = L.Icon.extend({
 
 let iconGroen = new Icons({iconUrl: 'img/markerGroen.png',})
 
-
-
 L.geoJSON(routeGroen,{
     style: function(feature){
         return{
